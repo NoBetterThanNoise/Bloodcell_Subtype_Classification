@@ -10,15 +10,15 @@ On my first few attempts the Train and Test folders were used to create Training
 # Results:
 
 Model 1 (Custom built 5 block CNN):
-![Confusion Matrix](https://pasteboard.co/JIgA0SM.png)
+![Confusion Matrix](https://github.com/NoBetterThanNoise/Bloodcell_Subtype_Classification/blob/master/confusion_matrix_model1.png)
 Classification of Lymphocytes and Monocytes are near perfect with F1 scores of 0.99 and 1.00. The model also performs well at classifying Neutrophil and Eosinophil, however the two are occassionally confused especially when identifying Neutrophils. These are reflected in their F1 scores of 0.89
 
 Model 2 (Densenet201): 
-![Confusion Matrix](https://pasteboard.co/JIgAyQH.png)
+![Confusion Matrix](https://github.com/NoBetterThanNoise/Bloodcell_Subtype_Classification/blob/master/confusion_matrix_model3.png)
 This Densenet Model shows similar patterns in test results that we saw in Model 1 (created in Part 1). Classification of Lymphocytes and Monocytes are very good with an F1 scores of 0.97 although not as good as in Model 1 (0.98 F1 score), while Neutrophils and Eosinophils and still confused on occasion with each other but fare slightly better than in Model 1.
 
 Model 3 (VGG16): 
-![Confusion Matrix](https://pasteboard.co/JIgALiR.png)
+![Confusion Matrix](https://github.com/NoBetterThanNoise/Bloodcell_Subtype_Classification/blob/master/confusion_matrix_model3.png)
 My VGG16 model (82.56%) performed significantly worse than the CNN built from scratch (94.05%) and the Densenet201 model (89.07%). Again we see the same trends of high performance on Lympocytes and Monocytes while struggling to classify Neutrophils and Eosinophils.
 
 # Future work: 
