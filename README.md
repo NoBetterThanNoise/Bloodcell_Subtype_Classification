@@ -1,4 +1,4 @@
-# Bloodcell_Subtype_Classification
+# Bloodcell Subtype Classification
 Classifying subtypes of blood cell within images using three different Convolutional Neural Networks (CNN): a custom built CNN with 5 Conv blocks (1) and transfer learning using a fine tuned Densenet201 model (2) and a VGG16 model (3)
 
 # Dataset: 
